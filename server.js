@@ -4,6 +4,8 @@ var http = require('http');
 var port = process.env.PORT || 1337;
 var fs = require('fs');
 var passport = require('passport');
+var OAuth2Strategy = require('oauth').OAuth2Strategy;
+
 
 
 fs.readFile('./HTMLPage1.html', function (err, html) {
@@ -17,6 +19,7 @@ fs.readFile('./HTMLPage1.html', function (err, html) {
     }).listen(port);
 
 });
+
 
 /*
 passport.use('oauth2', new OAuth2Strategy({

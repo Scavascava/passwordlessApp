@@ -1,11 +1,20 @@
 import CyberusKeyWidget from 'cyberuskey-widget';
 // JavaScript source code
 
-document.getElementById('login').addEventListener("click", function () {
-    //console.log(JSON.stringify(product_array));
-    sendSearch(JSON.stringify({ searchData: product_array }));
-});
 
+window.onload = function () {
+    
+    document.getElementById('login').addEventListener("click", function () {
+        //console.log(JSON.stringify(product_array));
+        console.log("AAAAAAAAAAAAAAAAAAAAAA");
+    });
+    
+};
+
+
+
+
+/*
 const cyberusKeyButton = new CyberusKeyWidget({
     clientId: 'YOUR CLIENT ID',
     // Use your redirect URI.
@@ -14,3 +23,4 @@ const cyberusKeyButton = new CyberusKeyWidget({
 });
 
 cyberusKeyButton.create('cyberus_login');
+*/
