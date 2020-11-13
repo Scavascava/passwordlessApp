@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "paswordlessApp",
+      "public": "dist/paswordlessApp",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

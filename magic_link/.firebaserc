@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "passwordlessauth-347ee": {
+      "hosting": {
+        "paswordlessApp": [
+          "passwordlessauth-347ee"
+        ]
+      }
+    }
+  }
+}
