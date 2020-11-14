@@ -1,4 +1,4 @@
-import CyberusKeyWidget from 'cyberuskey-widget';
+import CyberusKeyWidget from '@cyberuskey-widget';
 // JavaScript source code
 
 

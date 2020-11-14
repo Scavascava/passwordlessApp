@@ -10,6 +10,16 @@
 
     <button type="button" id="login" class="cyberus_login">Sign in with Cyberus Key</button>
 
-    <script type="text/javascript" src="./mainCyberus.js"></script>
+    <!--<script type="module" src="mainCyberus.js"></script>-->
+    
+    <script type="module">
+        import CyberusKeyWidget from 'cyberuskey-widget';
+        document.getElementById('login').addEventListener("click", function () {
+            //console.log(JSON.stringify(product_array));
+            console.log("AAAAAAAAAAAAAAAAAAAAAA");
+        });
+    </script>
+
+
 </body>
 </html>
