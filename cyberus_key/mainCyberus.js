@@ -13,6 +13,7 @@ window.onload = function () {
 };
 */
 
+
 const kupa = (request, response) => {
     response.sendFile(__dirname + "/" + "HTMLPage1.html");
     document.getElementById('login').addEventListener("click", function () {
@@ -23,8 +24,7 @@ const kupa = (request, response) => {
 
 
 const dupa = (request, response) => {
-    response.sendFile(__dirname + "/" + "HTMLPage1.html");
-
+    
     const cyberusKeyButton = new CyberusKeyWidget({
         clientId: 'KfnZprBj8RjRXer0SxCXuljueMxyS0MF',
         // Use your redirect URI.
@@ -32,7 +32,18 @@ const dupa = (request, response) => {
         fullOpenIdLogin: true
     });
 
-    cyberusKeyButton.create('cyberus_login');
+    response.sendFile(__dirname + "/" + "HTMLPage1.html");
+
+
+    cyberusKeyButton.create('login-button');
+
+    /*
+    document.getElementById('login').addEventListener("click", function () {
+        cyberusKeyButton.create('login-button');
+    });
+    */
+
+    
 }
 
 

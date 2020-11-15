@@ -47,7 +47,7 @@ passport.use('oauth2', new OAuth2Strategy({
     tokenURL: 'https://api.cyberuskey.com/api/v2/tokens',
     clientID: clientId,
     clientSecret: clientSecret,
-    callbackURL: 'https://passwordless-765d4.web.app',
+    //callbackURL: 'http://localhost:8081/dupa',
     customHeaders: { 'Authorization': 'Basic ' + Buffer.from(clientId + ':' + clientSecret).toString('base64') },
 },
     function (accessToken, refreshToken, profile, done) {
