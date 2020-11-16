@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  width: 400px;
+  align-self: center;
+  margin: auto;
+}
