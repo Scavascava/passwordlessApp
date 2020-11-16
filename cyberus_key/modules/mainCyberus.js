@@ -1,6 +1,7 @@
+//import packageMain from 'common-js'; // Works
+//const CyberusKeyWidget = packageMain.require('cyberuskey-widget').CyberusKeyWidget
 
-const CyberusKeyWidget = require('cyberuskey-widget').CyberusKeyWidget
-
+import { CyberusKeyWidget } from 'cyberuskey-widget'
 
 /*
 window.onload = function () {
@@ -48,7 +49,7 @@ const dupa = (request, response) => {
 
 
 
-module.exports = {
+export {
     kupa,
     dupa
 }
