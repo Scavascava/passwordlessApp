@@ -15,7 +15,7 @@ var server = app.listen(8081, function () {
 })
 
 var clientId = 'KfnZprBj8RjRXer0SxCXuljueMxyS0MF'
-var clientSecret = '68f4d683-262d-4685-8fc2-6a20ea4bbba0'
+var clientSecret = 'tajny klucz'
 
 
 app.get('/', function (req, res) {
