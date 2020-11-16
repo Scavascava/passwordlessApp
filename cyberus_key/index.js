@@ -36,21 +36,3 @@ app.get('/', function (req, res) {
 })
 
 
-
-
-
-/*
-passport.use('oauth2', new OAuth2Strategy({
-    authorizationURL: 'https://api.cyberuskey.com/api/v2/authenticate',
-    tokenURL: 'https://api.cyberuskey.com/api/v2/tokens',
-    clientID: clientId,
-    clientSecret: clientSecret,
-    //callbackURL: 'http://localhost:8081/dupa',
-    customHeaders: { 'Authorization': 'Basic ' + Buffer.from(clientId + ':' + clientSecret).toString('base64') },
-},
-    function (accessToken, refreshToken, profile, done) {
-
-    }
-));
-*/
-
